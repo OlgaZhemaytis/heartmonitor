@@ -1,0 +1,44 @@
+.carusel{
+	padding: 81px 0;
+	&__inner{
+		width: 750px;
+		height: 527px;
+		margin: 0 auto;
+	}
+	.slick-prev{
+		border: none;
+		background-color: #fff;
+		position: absolute;
+		top: 50%;
+		left: -66px;
+		transform: translateY(50%);
+		text-decoration: none;
+		&:hover{
+			text-decoration: none;
+			border: none;
+		}
+		img{
+			width: 31px;
+			height: 50px;
+			
+		}
+	}
+	.slick-next{
+		border: none;
+		background-color: #fff;
+		position: absolute;
+		top: 50%;
+		right: -66px;
+		left: auto;
+		transform: translateY(50%);
+		text-decoration: none;
+		&:hover{
+			text-decoration: none;
+			border: none;
+		}
+		img{
+			width: 31px;
+			height: 50px;
+		}
+	}
+}
