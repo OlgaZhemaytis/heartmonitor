@@ -9,11 +9,12 @@
 		margin-top: 65px;
 		
 	}
-	&__icons {
+	&__icon {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		width: 243px;
+		
 	}
 	img	{	
 		display: flex;
@@ -46,5 +47,17 @@
             color: #ff0000;
             text-decoration: underline;
         }
-    }
+	}
+	&__img{
+		&_anim{
+			animation-name: heartbeat;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			&:hover{
+				animation-play-state: paused;
+			}
+	
+			
+		}
+	}
 }
